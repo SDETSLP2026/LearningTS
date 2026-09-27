@@ -110,6 +110,17 @@ are known and defined in advance. (Static length)
 */
 
 let personData:[string, string, number, boolean] = ['Sarang', 'Pune', 1234, true];
+console.log(personData);
 
 
 
+// Define login credentials Username+Password
+
+let loginData:[string,string] = ["Admin", "Admin123"];
+console.log(loginData[0]); //Admin
+console.log(loginData[1]); //Admin123
+
+//API: Schema validation: AJV library
+
+
+// loginData:[number, string] = [123,""] - Cannot change signature as redeclaration is not allowed
