@@ -32,7 +32,6 @@ This means every abstract method should be implemented through its child class.
 
 Interface
 ==============
-
 - Interface is special class where we can have by-default all the methods are public & abstract.
 - We cannot create an object for an Interface.
 - Interface methods are implemented by its child class.
