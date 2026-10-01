@@ -1,4 +1,4 @@
-import {EmployeeData} from "./T09_Encapsulation.js"
+import {EmployeeData} from "./T09_Encapsulation.js";
 
 //object
 let e1:EmployeeData=new EmployeeData(111,"Nidhi");

@@ -1,4 +1,4 @@
-import { Car } from "./T12_Inheritance_Car.js";
+import {Car} from "./T12_Inheritance_Car.js";
 
 export class BMW extends Car
 {

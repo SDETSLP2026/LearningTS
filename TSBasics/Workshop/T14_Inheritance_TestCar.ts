@@ -1,5 +1,5 @@
-import { Car } from "./T12_Inheritance_Car.js";
-import { BMW } from "./T13_Inheritance_BMW.js";
+import {Car} from "./T12_Inheritance_Car.js";
+import {BMW} from "./T13_Inheritance_BMW.js";
 
 //----------------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ Car Class -> price method -> Base price 7L
 //----------------------------------------------------------------------------------
 
 console.log("Scenario-2: child class ref and child class object:Parent+child");
-let x7:BMW = new BMW(); //object of a chilkd/derived class
+let x7:BMW = new BMW(); //object of a child/derived class
 x7.autoGearShift(); //Individual method
 x7.start();         //Inherited method
 x7.refuel();        //Inherited method
