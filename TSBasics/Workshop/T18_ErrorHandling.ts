@@ -79,9 +79,9 @@ function division(num1:number, num2:number):number
 }
 
 //call
-console.log(division(200,10));
-console.log(division(100,0));
-console.log(division(191,12));
+// console.log(division(200,10)); //20
+console.log(division(100,0));  //ERROR Message: Please provide second number other than 0!
+// console.log(division(191,12)); //15.916666666666666
 
 console.log("---------------------finally block---------------------");
 
