@@ -10,3 +10,13 @@ Return:
 "Minor" otherwise
 Define the return type explicitly.
 */
+
+function checkAge(age:number):string
+{
+    if(age >= 18) return "Adult"
+    else return "Minor";
+}
+
+
+console.log(checkAge(9)); //Minor
+console.log(checkAge(22)); //Adult

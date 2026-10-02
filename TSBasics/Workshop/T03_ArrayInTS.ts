@@ -17,10 +17,13 @@ let arrName:Array<type>= [val1, val2,..... valn]
 //In JS
 let sid = [10,20,30,40,50];
 console.log(sid);
+console.log(typeof sid);
+
 
 //In TS
 let id:number[] = [100,200,300,400]
 console.log(id);
+console.log(typeof id);
 
 //single id
 console.log(id[2]);//300
@@ -111,6 +114,8 @@ are known and defined in advance. (Static length)
 
 let personData:[string, string, number, boolean] = ['Sarang', 'Pune', 1234, true];
 console.log(personData);
+console.log(typeof personData);
+
 
 
 

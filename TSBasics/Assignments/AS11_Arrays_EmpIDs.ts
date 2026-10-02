@@ -10,9 +10,26 @@ Example:
 "EMP104"
 Define the appropriate TypeScript type.
 Perform the following:
-Add another numeric ID.
-Add another string ID.
-Try adding a boolean value.
-Observe the TypeScript error.
+1. Add another numeric ID.
+2. Add another string ID.
+3. Try adding a boolean value & observe the TypeScript error.
 
 */
+
+let empIDs:Array<number|string> = [];
+
+// 1. Add another numeric ID.
+empIDs.push(101);
+empIDs.push(103);
+console.log("empIDs accepting numeric values: " + empIDs);
+//empIDs accepting numeric values: 101,103
+
+
+// 2. Add another string ID.
+empIDs.push("EMP102");
+empIDs.push("EMP104");
+console.log("empIDs accepting numeric values: " + empIDs);
+//empIDs accepting numeric values: 101,103,EMP102,EMP104
+
+// 3. Try adding a boolean value & observe the TypeScript error.
+// empIDs.push(true); Argument of type 'boolean' is not assignable to parameter of type 'string | number'.
